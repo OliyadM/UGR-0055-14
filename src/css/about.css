@@ -2,21 +2,12 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color:white;
-}
-
-.container {
     display: grid;
-    grid-template-areas:
-        "header"
-        "section"
-        "footer";
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
 }
 
 header {
-    grid-area: header;
     background-color: #333;
     color: #fff;
     padding: 10px;
@@ -45,9 +36,12 @@ nav a:active {
     background-color: orange;
 }
 
+
 section {
-    grid-area: section;
     padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr; /* Single column layout for mobile */
+    gap: 20px;
 }
 
 section header {
@@ -55,30 +49,46 @@ section header {
     margin-bottom: 20px;
 }
 
-ol,
+section p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+section h3 {
+    color: white;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-ol li,
 ul li {
     margin-bottom: 10px;
 }
 
-p {
-    text-align: justify;
+video {
+    width: 100%;
+}
+
+.lastsection {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column layout for mobile */
+    gap: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
 footer {
-    grid-area: footer;
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 10px;
-}
-img{
-    width:400px;
+    width: 100%;
 }
