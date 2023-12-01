@@ -5,6 +5,7 @@ body {
     display: grid;
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
+    backgound-color:e6e6fa;
 }
 
 header {
