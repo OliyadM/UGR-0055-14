@@ -1,0 +1,263 @@
+/* common style for all pages */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0; 
+    padding: 0; 
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+nav a:hover{
+    background-color:orange;
+}
+
+nav a:active {
+    background-color: orange;
+}
+section header {
+    text-align: center;
+}
+
+section p {
+    text-align: justify;
+}
+section {
+    padding: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+    position:sticky;
+    top:100%;
+}
+ol li, ul li {
+    margin-bottom: 10px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+ol, ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* stylehome.css */
+.homecontainer {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5dc;
+}
+.homecontainer section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.homecontainer img {
+    flex: 1;
+    width: 250px;
+    height: 250px;
+}
+
+
+/* styleabout.css */
+
+.aboutcontainer {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding-bottom:60px;
+    background-color: rgba(255, 255, 255, 0.363); 
+    min-height:100vh;
+}
+.aboutcontainer section h3 {
+    color:white;
+}
+.aboutcontainer video {
+    width: 100%;
+}
+.aboutcontainer .lastsection{
+    display:flex;
+    flex-wrap:wrap;    
+}
+
+.aboutcontainer img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right:1em;
+}
+
+/* stylehobbies.css */
+.hobbiescontainer{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5dc;
+}
+
+
+
+.hobbiescontainer section h3 {
+    color: white#333;
+}
+
+.hobbiescontainer ol, ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hobbiescontainer ol li, ul li {
+    margin-bottom: 10px;
+}
+
+.hobbiescontainer video {
+    width: 100%;
+}
+
+.hobbiescontainer img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* styletravel.css */
+
+.travelcontainer{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.travelcontainer section h3 {
+    color: white;
+}
+
+.travelcontainer video {
+    width: 100%;
+}
+
+.travelcontainer img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.gallery-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:20px
+}
+
+.gallery-section img {
+    flex:1;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+/* styletravel.css */
+.resumecontainer{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #444;
+    color: #fff; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.resumecontainer section {
+    padding: 20px;
+    flex: 1; 
+}
+
+.resumecontainer section h3 {
+    color: white;
+}
+
+.imgandinfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color:orange;
+}
+
+.profile-image {
+    float:left;
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+a {
+    color: orange; 
+    text-decoration: none; 
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icon {
+    width: 40px; /* Adjust the size as needed */
+    height: 40px;
+    margin-left: 10px;
+}
+
+.teamwork {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    flex-wrap:wrap
+}
+
+.Teamwork.image {
+    float:left;
+    max-width: 100%;
+    margin-right: 20px; 
+}
+
+.teamwork-paragraph {
+    flex: 1; 
+}
