@@ -47,9 +47,8 @@ footer {
     padding: 10px;
     width: 100%;
     bottom: 0;
-    position:sticky;
-    top:100%;
 }
+
 ol li, ul li {
     margin-bottom: 10px;
 }
@@ -92,7 +91,6 @@ ol, ul {
     margin: 0;
     padding-bottom:60px;
     background-color: rgba(255, 255, 255, 0.363); 
-    min-height:100vh;
 }
 .aboutcontainer section h3 {
     color:white;
@@ -106,6 +104,7 @@ ol, ul {
 }
 
 .aboutcontainer img {
+    float:left;
     max-width: 100%;
     height: auto;
     margin-top: 20px;
@@ -141,7 +140,7 @@ ol, ul {
     width: 100%;
 }
 
-.hobbiescontainer img {
+.hobbiescontainere img {
     max-width: 100%;
     height: auto;
     margin-top: 20px;
@@ -174,15 +173,15 @@ ol, ul {
 
 .gallery-section {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-between;
     gap:20px
 }
 
 .gallery-section img {
     flex:1;
-    width: 100%;
-    height: 150px;
+    width: 25%;
+    height: auto;
     margin-bottom: 10px;
 }
 
@@ -240,10 +239,11 @@ a {
 }
 
 .icon {
-    width: 40px; /* Adjust the size as needed */
+    width: 40px; 
     height: 40px;
     margin-left: 10px;
 }
+
 
 .teamwork {
     display: flex;
@@ -261,3 +261,4 @@ a {
 .teamwork-paragraph {
     flex: 1; 
 }
+
