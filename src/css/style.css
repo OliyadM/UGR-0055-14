@@ -121,9 +121,10 @@ ol, ul {
 
 
 
-.hobbies-container section h3 {
-    color: white#333;
+.hobbiescontainer section h3 {
+    color: white;
 }
+
 
 .hobbies-container ol, ul {
     list-style-type: none;
@@ -277,8 +278,8 @@ a {
 
     nav ul {
         justify-content: flex-end;
-        margin-top: 10px; /
-    }
+        margin-top: 10px;
+    }    
 
     nav ul li {
         margin-right: 30px;
@@ -331,8 +332,9 @@ a {
 }
 .teamwork {
     display: flex;
-    align-items: center; /
+    align-items: center;
 }
+
 
 .Teamwork.image {
     max-width: 40%; 
@@ -360,8 +362,9 @@ a {
 
     nav ul {
         justify-content: flex-end;
-        margin-top: 10px; /
+        margin-top: 10px;
     }
+    
 
     nav ul li {
         margin-right: 30px;
@@ -378,7 +381,7 @@ a {
     }
     .gallery-section img{
         width:25%;
-    }
+    }    
 }
 
 /* Responsive Styles for Mobile Landscape */
@@ -394,8 +397,9 @@ a {
 
     nav ul {
         justify-content: flex-end;
-        margin-top: 10px; /
+        margin-top: 10px;
     }
+    
 
     nav ul li {
         margin-right: 30px;
@@ -414,5 +418,4 @@ a {
         width:25%;
     }
 
-    /* Add any additional mobile landscape styles here */
 }
