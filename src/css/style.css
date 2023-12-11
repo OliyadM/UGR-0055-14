@@ -63,13 +63,13 @@ ol, ul {
 }
 
 /* stylehome.css */
-.homecontainer {
+.home-container {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f5f5dc;
 }
-.homecontainer section {
+.home-container section {
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -77,7 +77,7 @@ ol, ul {
     margin-bottom: 60px;
 }
 
-.homecontainer img {
+.home-container img {
     flex: 1;
     width: 250px;
     height: 250px;
@@ -86,34 +86,33 @@ ol, ul {
 
 /* styleabout.css */
 
-.aboutcontainer {
+.about-container {
     font-family: 'Arial', sans-serif;
     margin: 0;
-    padding-bottom:60px;
     background-color: rgba(255, 255, 255, 0.363); 
 }
-.aboutcontainer section h3 {
+.about-container section h3 {
     color:white;
 }
-.aboutcontainer video {
+.about-container video {
     width: 100%;
 }
-.aboutcontainer .lastsection{
+.about-container .lastsection{
     display:flex;
     flex-wrap:wrap;    
 }
 
-.aboutcontainer img {
+.about-container img {
     float:left;
     max-width: 100%;
-    height: auto;
+    height: 200px;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right:1em;
 }
 
 /* stylehobbies.css */
-.hobbiescontainer{
+.hobbies-container{
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
@@ -122,25 +121,25 @@ ol, ul {
 
 
 
-.hobbiescontainer section h3 {
+.hobbies-container section h3 {
     color: white#333;
 }
 
-.hobbiescontainer ol, ul {
+.hobbies-container ol, ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.hobbiescontainer ol li, ul li {
+.hobbies-container ol li, ul li {
     margin-bottom: 10px;
 }
 
-.hobbiescontainer video {
+.hobbies-container video {
     width: 100%;
 }
 
-.hobbiescontainere img {
+.hobbies-container img {
     max-width: 100%;
     height: auto;
     margin-top: 20px;
@@ -148,22 +147,22 @@ ol, ul {
 }
 /* styletravel.css */
 
-.travelcontainer{
+.travel-container{
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
 }
 
-.travelcontainer section h3 {
+.travel-container section h3 {
     color: white;
 }
 
-.travelcontainer video {
+.travel-container video {
     width: 100%;
 }
 
-.travelcontainer img {
+.travel-container img {
     max-width: 100%;
     height: auto;
     margin-top: 20px;
@@ -180,13 +179,17 @@ ol, ul {
 
 .gallery-section img {
     flex:1;
-    width: 25%;
+    width: 100%;
     height: auto;
     margin-bottom: 10px;
+
+}
+.gallery-section img:hover {
+    transform: scale(1.2); 
 }
 
 /* styletravel.css */
-.resumecontainer{
+.resume-container{
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
@@ -198,12 +201,12 @@ ol, ul {
 }
 
 
-.resumecontainer section {
+.resume-container section {
     padding: 20px;
     flex: 1; 
 }
 
-.resumecontainer section h3 {
+.resume-container section h3 {
     color: white;
 }
 
@@ -262,3 +265,154 @@ a {
     flex: 1; 
 }
 
+@media only screen and (min-width: 1024px) {
+    
+    .home-container,.about-container,.resume-container,.hobbies-container,.travel-container{
+        font-size:19px;
+    }
+    header {
+        flex-direction: row;
+        justify-content:space-between;
+    }
+
+    nav ul {
+        justify-content: flex-end;
+        margin-top: 10px; /
+    }
+
+    nav ul li {
+        margin-right: 30px;
+    }
+    .about-container img{
+        width:400px;
+        height:200px;   }
+
+    .home-container img {
+        width: 400px;
+        height: 400px;
+    }
+
+    h1 {
+        margin-right:20px;
+        font-size: 2em; 
+    }
+    .gallery-section img{
+        width:25%;
+    }
+    .exploring {
+        display: flex;
+        align-items: center; 
+    }
+    
+    .exploring video {
+        flex: 1; 
+        max-width: 40%; 
+    }
+    
+    .exploring p {
+        flex: 1; 
+        padding: 20px; 
+}
+.places {
+    display: flex;
+}
+
+.visited,
+.wishlist {
+    flex: 1; 
+}
+
+.visited {
+    padding: 20px;
+}
+
+.wishlist {
+    padding: 20px;
+}
+.teamwork {
+    display: flex;
+    align-items: center; /
+}
+
+.Teamwork.image {
+    max-width: 40%; 
+    flex: 1; 
+}
+
+.teamwork-paragraph {
+    flex: 1; 
+    padding: 20px; 
+}
+
+}
+
+
+/* Responsive Styles for Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+  
+    .home-container,.about-container,.resume-container,.hobbies-container,.travel-container{
+        font-size:18px;
+    }
+    header {
+        font-size:20px;        flex-direction: row;
+        justify-content:space-between;
+    }
+
+    nav ul {
+        justify-content: flex-end;
+        margin-top: 10px; /
+    }
+
+    nav ul li {
+        margin-right: 30px;
+    }
+
+    .home-container img {
+        width: 400px;
+        height: 400px;
+    }
+
+    h1 {
+        margin-right:20px;
+        font-size: 2em; 
+    }
+    .gallery-section img{
+        width:25%;
+    }
+}
+
+/* Responsive Styles for Mobile Landscape */
+@media (min-width: 480px) and (max-width: 767px)
+{
+    .home-container,.about-container,.resume-container,.hobbies-container,.travel-container{
+        font-size:18px;
+    }
+    header {
+        font-size:18px;        flex-direction: row;
+        justify-content:space-between;
+    }
+
+    nav ul {
+        justify-content: flex-end;
+        margin-top: 10px; /
+    }
+
+    nav ul li {
+        margin-right: 30px;
+    }
+
+    .home-container img {
+        width: 400px;
+        height: 400px;
+    }
+
+    h1 {
+        margin-right:20px;
+        font-size: 1em; 
+    }
+    .gallery-section img{
+        width:25%;
+    }
+
+    /* Add any additional mobile landscape styles here */
+}
