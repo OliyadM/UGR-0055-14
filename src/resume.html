@@ -4,84 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oliyad's Portfolio - Resume</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 </head>
-<body>
+<body class="resume-container">
 
-<header>
-    <h1>Oliyad's Portfolio</h1>
-    <nav>
-        <ul>
-            <li><a href="homepage.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="travel.html">Travel</a></li>
-            <li><a href="hobbies.html">Hobbies</a></li>
-            <li><a href="resume.html">Resume</a></li>
-        </ul>
-    </nav>
+<header class="hero is-dark is-bold">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">Oliyad's Portfolio</h1>
+            <!-- Bulma Navigation Bar -->
+            <nav class="navbar" role="navigation" aria-label="main navigation">
+                <div class="navbar-menu">
+                    <div class="navbar-start">
+                        <a href="homepage.html" class="navbar-item">Home</a>
+                        <a href="about.html" class="navbar-item">About</a>
+                        <a href="travel.html" class="navbar-item">Travel</a>
+                        <a href="hobbies.html" class="navbar-item">Hobbies</a>
+                        <a href="resume.html" class="navbar-item">Resume</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
 </header>
 
-<section id="resume">
-    <header>
-        <h2>My Resume</h2>
-    </header>
-    <section>
-        <header>
-            <h3>Personal Image</h3>
-        </header>
-        <img src="photo_for_resume.jpg" alt="personal image">
-    </section>
+<section class="section">
+    <div class="container">
+        <h2 class="title">My Resume</h2>
 
-    <section>
-        <header>
-            <h3>Education</h3>
-        </header>
-        <ol>
-            <li>High School - Lideta Catholic Cathedral</li>
-            <li>Summer Boot Camp in Cyber Security - Organized by INSA</li>
-            <li>First Degree in Information Systems - Saint Mary's University</li>
-            <li>Currently pursuing a Bachelor's in Software Engineering - Addis Ababa Institute of Technology (AAiT)</li>
-        </ol>
-    </section>
+        <div class="columns">
+            <div class="column is-one-third">
+                <img class="profile-image" src="images/photo_for_resume.jpg" alt="personal image">
+                <div class="info">
+                    <div class="info-item">
+                        <a href="https://oliyadmulugeta.78@gmail.com" target="_blank">oliyadmulugeta</a>
+                    </div>
+                    <div class="info-item">
+                        +251 947619878
+                    </div>
+                    <div class="info-item">
+                        <a href="https://your-address-link.com" target="_blank">Addis Ababa Ethiopia</a>
+                    </div>
+                    <div class="info-item">
+                        <a href="https://linkedin.com/your-profile" target="_blank">LinkedIn Profile</a>
+                    </div>
+                    <div class="info-item">
+                        <a href="https://github.com/OLIYAD" target="_blank">github.com/oliyad</a>
+                    </div>
+                </div>
+            </div>
 
-    <section>
-        <header>
-            <h3>Hire me</h3>
-        </header>
-        <p>
-            I am a passionate individual dedicated to the fields of network architecture and web design. My educational background and hands-on experience have equipped me with the skills to tackle complex challenges in the digital realm. I thrive on continuous learning and innovation, always seeking opportunities to push the boundaries of what's possible.
-        </p>
-    </section>
+            <div class="column">
+                <header>
+                    <h3>Hire me</h3>
+                </header>
+                <p>
+                    I am a passionate individual dedicated to the fields of network architecture and web design. My educational background and hands-on experience have equipped me with the skills to tackle complex challenges in the digital realm. I thrive on continuous learning and innovation, always seeking opportunities to push the boundaries of what's possible.
+                </p>
 
-    <section>
-        <header>
-            <h3>Achievements and Certifications</h3>
-        </header>
-        <ul>
-            <li>CCNP certified</li>
-            <li>Responsive webdesign freecodecamp</li>
-            <li>graphics designer self thought <li>
-        </ul>
-    </section>
+                <header>
+                    <h3>Achievements and Certifications</h3>
+                </header>
+                <ul>
+                    <li>CCNP certified</li>
+                    <li>Responsive web design freecodecamp</li>
+                    <li>Graphics designer self-taught</li>
+                </ul>
 
-    <section>
-        <header>
-            <h3>Team work</h3>
-        </header>
-        <img src="teamwork.jpg" alt="A photo describing Teamwork">
-    </section>
-
-    <section>
-        <header>
-        </header>
-        <p>
-            I excel in teamwork, showcased through successful collaboration in projects during the INSA-organized summer boot camp and group assignments at Saint Mary's University. I'm eager to bring this collaborative spirit to future endeavors, as I believe in the power of diverse teams to achieve innovative solutions and foster continuous growth.
-        </p>
-    </section>
-
+                <header>
+                    <h3>Teamwork</h3>
+                </header>
+                <div class="teamwork">
+                    <img class="Teamwork image" src="images/teamwork.jpg" alt="A photo describing Teamwork">
+                    <p class="teamwork-paragraph">I excel in teamwork, showcased through successful collaboration in projects during the INSA-organized summer boot camp and group assignments at Saint Mary's University. I'm eager to bring this collaborative spirit to future endeavors, as I believe in the power of diverse teams to achieve innovative solutions and foster continuous growth.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
-<footer>
-    <p>&copy; 2023 Oliyad's Portfolio. All rights reserved. | Contact: oliyadmulugeta.78@gmail.com</p>
+<footer class="hero is-dark is-bold">
+    <div class="content has-text-centered">
+        <p>&copy; 2023 Oliyad's Portfolio. All rights reserved. | Contact: oliyadmulugeta.78@gmail.com</p>
+    </div>
 </footer>
 
 </body>

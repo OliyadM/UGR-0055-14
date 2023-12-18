@@ -4,88 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oliyad's Portfolio - About Me</title>
+    <!-- Link to the Bulma CSS from CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 </head>
-<body>
+<body class="about-container">
 
-<header>
-    <h1>Oliyad's Portfolio</h1>
-    <nav>
-        <ul>
-            <li><a href="homepage.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="travel.html">Travel</a></li>
-            <li><a href="hobbies.html">Hobbies</a></li>
-            <li><a href="resume.html">Resume</a></li>
-        </ul>
-    </nav>
+<!-- Bulma Header -->
+<header class="hero is-dark is-bold">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">Oliyad's Portfolio</h1>
+            <!-- Bulma Navigation Bar -->
+            <nav class="navbar" role="navigation" aria-label="main navigation">
+                <div class="navbar-menu">
+                    <div class="navbar-start">
+                        <a href="homepage.html" class="navbar-item">Home</a>
+                        <a href="about.html" class="navbar-item">About</a>
+                        <a href="travel.html" class="navbar-item">Travel</a>
+                        <a href="hobbies.html" class="navbar-item">Hobbies</a>
+                        <a href="resume.html" class="navbar-item">Resume</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
 </header>
 
-<section >
-    <header>
-        <h2>About Me</h2>
-    </header>
-    <p>
-        Hello! I'm Oliyad, a 21-year-old student and freelance professional with a deep passion for technology and its creative applications. My journey in the world of IT began with the pursuit of becoming a CCNA certified network architect, and it has since evolved to encompass various facets of web design and development.
-        <br><br>
-        Currently studying Site at Addisababa, I am driven by an insatiable curiosity for understanding how things work in the digital realm. I believe in the power of technology to transform ideas into reality, and this belief fuels my commitment to continuous learning and innovation.
-    </p>
-
-    <section>
-        <header>
-            <h3>My Skills</h3>
-        </header>
-        <ul>
-            <li>CCNA Certified Network Architect</li>
-            <li>Web Design and Development</li>
-            <li>Graphics designer </li>
-            <li>content creator</li>
-        </ul>
-    </section>
-
-    <section>
-        <header>
-            <h3>My Inspirations</h3>
-        </header>
-        <p>
-            One of my biggest inspirations is the ever-changing landscape of technology. The constant evolution challenges me to stay at the forefront of innovation and adapt to new possibilities. I'm also inspired by elon mask, whose work continues to shape the digital world.
+<!-- Bulma Section -->
+<section class="section">
+    <div class="container">
+        <h2 class="title">About Me</h2>
+        <p class="first paragraph">
+            Hello! I'm Oliyad, a 21-year-old student and freelance professional with a deep passion for technology and its creative applications. My journey in the world of IT began with the pursuit of becoming a CCNA certified network architect, and it has since evolved to encompass various facets of web design and development.
+            <br><br>
+            Currently studying Site at Addisababa, I am driven by an insatiable curiosity for understanding how things work in the digital realm. I believe in the power of technology to transform ideas into reality, and this belief fuels my commitment to continuous learning and innovation.
         </p>
-    </section>
 
-    <section>
-        <header>
-            <h3>Exploring My World</h3>
-        </header>
-        <video  controls>
-            <source src="video1.mp4" type="video/mp4">
-        </video>
-    
-    </section>
+        <!-- Bulma Section for Skills -->
+        <section>
+            <h3 class="title is-3">My Skills</h3>
+            <ul>
+                <li>CCNA Certified Network Architect</li>
+                <li>Web Design and Development</li>
+                <li>Graphics designer</li>
+                <li>Content creator</li>
+            </ul>
+        </section>
 
-    <section>
-        <header>
-            <h3>A Glimpse of My Journey</h3>
-        </header>
-        <p>
-            Beyond the technicalities, I find joy in exploring the world. Traveling has been a significant part of my life, providing inspiration and broadening my perspective. Whether immersed in the rich culture of a new city or navigating the challenges of a mountain trail, I thrive on the experiences that push me beyond my comfort zone.
-        </p>
-    </section>
+        <!-- Bulma Section for Inspirations -->
+        <section>
+            <h3 class="title is-3">My Inspirations</h3>
+            <p>
+                One of my biggest inspirations is the ever-changing landscape of technology. The constant evolution challenges me to stay at the forefront of innovation and adapt to new possibilities. I'm also inspired by Elon Musk, whose work continues to shape the digital world.
+            </p>
+        </section>
 
-    <section>
-        <header>
-            <h3>Visualizing Creativity</h3>
-        </header>
-        <img src="photo_for_aboutme.jpg" alt="An image of a man coding">
-        <p>
-            In the image above, you see a visual representation of my dedication to the world of technology. The professional attire symbolizes my commitment, while the focus on the computer screen reflects the heart of my work—be it crafting intricate network architectures or designing captivating web solutions.
-        </p>
-    </section>
+        <!-- Bulma Section for Exploring My World -->
+        <section>
+            <h3 class="title is-3">Exploring My World</h3>
+            <div class="exploring">
+                <video controls class="is-16by9">
+                    <source src="videos/video1.mp4" type="video/mp4">
+                </video>
+                <p>
+                    Beyond the technicalities, I find joy in exploring the world. Traveling has been a significant part of my life, providing inspiration and broadening my perspective. Whether immersed in the rich culture of a new city or navigating the challenges of a mountain trail, I thrive on the experiences that push me beyond my comfort zone.
+                </p>
+            </div>
+        </section>
 
+        <!-- Bulma Section for Visualizing Creativity -->
+        <section class="Last section">
+            <h3 class="title is-3">Visualizing Creativity</h3>
+            <div class="columns">
+                <div class="column">
+                    <img src="images/photo_for_aboutme.jpg" alt="An image of a man coding">
+                </div>
+                <div class="column">
+                    <p>
+                        In the image above, you see a visual representation of my dedication to the world of technology. The professional attire symbolizes my commitment, while the focus on the computer screen reflects the heart of my work—be it crafting intricate network architectures or designing
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
 </section>
 
-
-
-<footer>
-    <p>&copy; 2023 Oliyad's Portfolio. All rights reserved. | Contact:oliyadmulugeta.78@gmail.com</p>
+<!-- Bulma Footer -->
+<footer class="footer is-dark">
+    <div class="content has-text-centered">
+        <p>&copy; 2023 Oliyad's Portfolio. All rights reserved. | Contact: oliyadmulugeta.78@gmail.com</p>
+    </div>
 </footer>
 
 </body>

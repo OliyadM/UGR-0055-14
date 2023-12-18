@@ -4,72 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oliyad's Portfolio - Hobbies</title>
+    <!-- Link to the Bulma CSS from CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <!-- Link to your custom CSS file -->
 </head>
-<body>
+<body class="hobbies-container">
 
-<header>
-    <h1>Oliyad's Portfolio</h1>
-    <nav>
-        <ul>
-            <li><a href="homepage.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="travel.html">Travel</a></li>
-            <li><a href="hobbies.html">Hobbies</a></li>
-            <li><a href="resume.html">Resume</a></li>
-        </ul>
-    </nav>
+<!-- Bulma Header -->
+<header class="hero is-dark is-bold">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">Oliyad's Portfolio</h1>
+            <!-- Bulma Navigation Bar -->
+            <nav class="navbar" role="navigation" aria-label="main navigation">
+                <div class="navbar-menu">
+                    <div class="navbar-start">
+                        <a href="homepage.html" class="navbar-item">Home</a>
+                        <a href="about.html" class="navbar-item">About</a>
+                        <a href="travel.html" class="navbar-item">Travel</a>
+                        <a href="hobbies.html" class="navbar-item">Hobbies</a>
+                        <a href="resume.html" class="navbar-item">Resume</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
 </header>
 
-<section >
-    <header>
-        <h2>My Hobbies</h2>
-    </header>
-    <p>
-        Welcome to the Hobbies section of my portfolio! Beyond the world of technology, I find joy and inspiration in various activities that contribute to my personal growth. Explore my hobbies below:
-    </p>
-
-    <section>
-        <header>
-            <h3>Hobbies List</h3>
-        </header>
-        <ol>
-            <li>Photography</li>
-            <li>Reading</li>
-            <li>Hiking</li>
-        </ol>
-    </section>
-
-    <section>
-        <header>
-            <h3>Exploring Hobbies</h3>
-        </header>
-        <video  controls>
-            <source src="video_for_hobbies.mp4" type="video/mp4">
-    </section>
-
-    <section>
-        <header>
-            <h3>The Joy of Hobbies</h3>
-        </header>
+<!-- Bulma Section -->
+<section class="section">
+    <div class="container">
+        <h2 class="title">My Hobbies</h2>
         <p>
-            Engaging in hobbies provides me with a sense of balance and fulfillment. Whether capturing moments through photography, immersing myself in the worlds of books, or exploring nature through hiking, each activity adds a unique layer to my life.
+            Welcome to the Hobbies section of my portfolio! Beyond the world of technology, I find joy and inspiration in various activities that contribute to my personal growth. Explore my hobbies below:
         </p>
-    </section>
 
-    <section>
-        <header>
-            <h3>Hobby Snapshot</h3>
-        </header>
-        <img src="image_for_hobbies.jpg" alt="a picture of a photographer">
-        <p>
-            In this image, you catch a glimpse of one of my favorite hobbies in action. The joy, creativity, and relaxation I experience through my hobbies are an essential part of my journey.
-        </p>
-    </section>
+        <!-- Bulma Section for Hobbies List -->
+        <section>
+            <h3 class="title is-3">Hobbies List</h3>
+            <ul>
+                <li>Photography</li>
+                <li>Reading</li>
+                <li>Hiking</li>
+            </ul>
+        </section>
 
+        <!-- Bulma Section for Exploring Hobbies -->
+        <section>
+            <h3 class="title is-3">Exploring Hobbies</h3>
+            <video controls class="is-16by9">
+                <source src="videos/video_for_hobbies.mp4" type="video/mp4">
+            </video>
+        </section>
+
+        <!-- Bulma Section for The Joy of Hobbies -->
+        <section>
+            <h3 class="title is-3">The Joy of Hobbies</h3>
+            <p>
+                Engaging in hobbies provides me with a sense of balance and fulfillment. Whether capturing moments through photography, immersing myself in the worlds of books, or exploring nature through hiking, each activity adds a unique layer to my life.
+            </p>
+        </section>
+
+        <!-- Bulma Section for Hobby Snapshot -->
+        <section>
+            <h3 class="title is-3">Hobby Snapshot</h3>
+            <div class="columns">
+                <div class="column">
+                    <img src="images/image_for_hobbies.jpg" alt="A picture of a photographer">
+                </div>
+                <div class="column">
+                    <p>
+                        In this image, you catch a glimpse of one of my favorite hobbies in action. The joy, creativity, and relaxation I experience through my hobbies are an essential part of my journey.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </div>
 </section>
 
-<footer>
-    <p>&copy; 2023 Oliyad's Portfolio. All rights reserved. | Contact:oliyadmulugeta.78@.gmail</p>
+<!-- Bulma Footer -->
+<footer class="footer">
+    <div class="content has-text-centered">
+        <p>&copy; 2023 Oliyad's Portfolio. All rights reserved. | Contact: oliyadmulugeta.78@gmail</p>
+    </div>
 </footer>
 
 </body>
