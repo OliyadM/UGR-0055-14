@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oliyad's Portfolio - Travel</title>
     <link rel="stylesheet" href="css/style.css">
-
+    <!-- Include your script.js file for the slideshow functionality -->
+    <script defer src="js/script.js"></script>
 </head>
 <body class="travel-container">
 
@@ -18,7 +19,6 @@
             <li><a href="travel.html">Travel</a></li>
             <li><a href="hobbies.html">Hobbies</a></li>
             <li><a href="resume.html">Resume</a></li>
-
         </ul>
     </nav>
 </header>
@@ -33,25 +33,25 @@
 
     <section class="places">
         <div class="visited">
-        <header>
-            <h3>Places I've Explored</h3>
-        </header>
-        <ol>
-            <li>City of Lights - Paris, France</li>
-            <li>Serenity in Santorini - Greece</li>
-            <li>Adventures in Kyoto - Japan</li>
-        </ol>
+            <header>
+                <h3>Places I've Explored</h3>
+            </header>
+            <ol>
+                <li>City of Lights - Paris, France</li>
+                <li>Serenity in Santorini - Greece</li>
+                <li>Adventures in Kyoto - Japan</li>
+            </ol>
         </div>
         
         <div class="wishlist">
-        <header>
-            <h3>Places on My Travel Wishlist</h3>
-        </header>
-        <ul>
-            <li>Majestic Machu Picchu - Peru</li>
-            <li>Marvels of Petra - Jordan</li>
-            <li>Exploring Iceland's Landscapes</li>
-        </ul>
+            <header>
+                <h3>Places on My Travel Wishlist</h3>
+            </header>
+            <ul>
+                <li>Majestic Machu Picchu - Peru</li>
+                <li>Marvels of Petra - Jordan</li>
+                <li>Exploring Iceland's Landscapes</li>
+            </ul>
         </div>
     </section>
 
@@ -64,25 +64,40 @@
             <source src="videos/THE_PERFECT_DAY_IN_VANCOUVER.mp4" type="video/mp4">
         </video>
     </section>
+
     <section class="snapshot">
         <header>
             <h3>Snapshot Gallery</h3>
         </header>
     
-    <section class="gallery-section">
-        <img src="images/serenity_in_santorini.jpg" alt="Serenity in Santorini">
-        <img src="images/iceland's_landscapes.jpg" alt="Iceland's Landscapes">
-        <img src="images/paris.jpg" alt="Paris">
+        <section class="slideshow-container">
+            <!-- Slides for the snapshot gallery -->
+            <div class="mySlides">
+                <img src="images/serenity_in_santorini.jpg" alt="Serenity in Santorini">
+            </div>
+            <div class="mySlides">
+                <img src="images/iceland's_landscapes.jpg" alt="Iceland's Landscapes">
+            </div>
+            <div class="mySlides">
+                <img src="images/paris.jpg" alt="Paris">
+            </div>
+
+            <!-- Navigation dots for the snapshot gallery -->
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </section>
     </section>
-    </section>
-    </div>
+</div>
     
-    
-    <footer>
-        <p>&copy; 2023 Oliyad's Portfolio. All rights reserved. | Contact: oliyadmulugeta.78@gmail.com</p>
-    </footer>
+<footer>
+    <p>&copy; 2023 Oliyad's Portfolio. All rights reserved. | Contact: oliyadmulugeta.78@gmail.com</p>
+</footer>
 
 </section>
+<button id="scrollToTopBtn" title="Go to top">&#8679; Top</button>
 
 </body>
 </html>
