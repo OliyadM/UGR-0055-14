@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oliyad's Portfolio - Travel</title>
+    <!-- Use your local Tailwind CSS file -->
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-beige font-sans">
+
+    <header class="bg-gray-800 text-white p-8 flex flex-col items-center justify-between sm:flex-row">
+        <h1 class="text-6xl font-bold mb-4 sm:mb-0">Oliyad's Portfolio</h1>
+        <nav class="mt-4 order-2 sm:order-1">
+            <ul class="flex">
+                <li class="mr-4"><a href="homepage.html" class="text-white text-lg">Home</a></li>
+                <li class="mr-4"><a href="about.html" class="text-white text-lg">About</a></li>
+                <li class="mr-4"><a href="travel.html" class="text-white text-lg">Travel</a></li>
+                <li class="mr-4"><a href="hobbies.html" class="text-white text-lg">Hobbies</a></li>
+                <li><a href="resume.html" class="text-white text-lg">Resume</a></li>
+            </ul>
+        </nav>
+    </header>  
+
+    <section class="p-8">
+        <header>
+            <h2 class="text-4xl font-bold">Travel Adventures</h2>
+        </header>
+        <p class="text-lg">
+            Welcome to my travel page! Exploring different parts of the world has been a source of inspiration and joy for me. Below, you'll find a glimpse of my past adventures, places I've visited, and those I hope to explore in the future.
+        </p>
+
+        <section class="mb-8">
+            <div class="places flex flex-col sm:flex-row">
+                <div class="visited w-full sm:w-1/2 pr-0 sm:pr-4 mb-4 sm:mb-0">
+                    <header>
+                        <h3 class="text-3xl font-bold mb-2">Places I've Explored</h3>
+                    </header>
+                    <ol class="list-decimal pl-4">
+                        <li>City of Lights - Paris, France</li>
+                        <li>Serenity in Santorini - Greece</li>
+                        <li>Adventures in Kyoto - Japan</li>
+                    </ol>
+                </div>
+                
+                <div class="wishlist w-full sm:w-1/2 pl-0 sm:pl-4">
+                    <header>
+                        <h3 class="text-3xl font-bold mb-2">Places on My Travel Wishlist</h3>
+                    </header>
+                    <ul class="list-disc pl-4">
+                        <li>Majestic Machu Picchu - Peru</li>
+                        <li>Marvels of Petra - Jordan</li>
+                        <li>Exploring Iceland's Landscapes</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-8">
+            <header>
+                <h3 class="text-3xl font-bold mb-2">Memorable Travel Moments</h3>
+            </header>
+            <div class="w-full">
+                <video controls class="w-full">
+                    <source src="videos/THE_PERFECT_DAY_IN_VANCOUVER.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+
+        <section class="mb-8">
+            <header>
+                <h3 class="text-3xl font-bold mb-2">Snapshot Gallery</h3>
+            </header>
+        
+            <div class="gallery-section grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                <img src="images/serenity_in_santorini.jpg" alt="Serenity in Santorini" class="w-full h-auto rounded-lg shadow-lg">
+                <img src="images/iceland's_landscapes.jpg" alt="Iceland's Landscapes" class="w-full h-auto rounded-lg shadow-lg">
+                <img src="images/paris.jpg" alt="Paris" class="w-full h-auto rounded-lg shadow-lg">
+            </div>
+        </section>
+    </section>
+
+    <footer class="bg-gray-800 text-white p-8">
+        <p class="text-lg">&copy; 2023 Oliyad's Portfolio. All rights reserved. | Contact: oliyadmulugeta.78@gmail.com</p>
+    </footer>
+
+</body>
+</html>
