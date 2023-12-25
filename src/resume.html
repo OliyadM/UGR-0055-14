@@ -1,88 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oliyad's Portfolio - Resume</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
-<body>
 
-<header>
-    <h1>Oliyad's Portfolio</h1>
-    <nav>
-        <ul>
-            <li><a href="homepage.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="travel.html">Travel</a></li>
-            <li><a href="hobbies.html">Hobbies</a></li>
-            <li><a href="resume.html">Resume</a></li>
-        </ul>
-    </nav>
-</header>
+<body class="bg-dark text-white">
 
-<section id="resume">
-    <header>
-        <h2>My Resume</h2>
+    <header class="bg-dark text-white p-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-left">
+                    <h1>Oliyad's Portfolio</h1>
+                </div>
+                <div class="col-12 mt-2">
+                    <nav class="navbar navbar-dark navbar-expand-lg">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="homepage.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="travel.html">Travel</a></li>
+                            <li class="nav-item"><a class="nav-link" href="hobbies.html">Hobbies</a></li>
+                            <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
     </header>
-    <section>
-        <header>
-            <h3>Personal Image</h3>
+    <section class="container mt-4">
+        <header class="text-center">
+            <h2>My Resume</h2>
         </header>
-        <img src="photo_for_resume.jpg" alt="personal image">
+
+        <section class="row mt-4">
+            <div class="col-md-4">
+                <img class="profile-image img-fluid rounded-circle" src="images/photo_for_resume.jpg"
+                    alt="personal image">
+            </div>
+            <div class="col-md-8">
+                <div class="info">
+                    <div class="info-item">
+                        <a href="https://oliyadmulugeta.78@gmail.com" target="_blank">oliyadmulugeta</a>
+                    </div>
+                    <div class="info-item">
+                        +251 947619878
+                    </div>
+                    <div class="info-item">
+                        <a href="https://your-address-link.com" target="_blank">Addis Ababa Ethiopia</a>
+                    </div>
+                    <div class="info-item">
+                        <a href="https://linkedin.com/your-profile" target="_blank">LinkedIn Profile</a>
+                    </div>
+                    <div class="info-item">
+                        <a href="https://github.com/OLIYAD" target="_blank">github.com/oliyad</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-4">
+            <header class="text-center">
+                <h3>Hire me</h3>
+            </header>
+            <p class="text-justify">
+                I am a passionate individual dedicated to the fields of network architecture and web design. My
+                educational background and hands-on experience have equipped me with the skills to tackle complex
+                challenges in the digital realm. I thrive on continuous learning and innovation, always seeking
+                opportunities to push the boundaries of what's possible.
+            </p>
+        </section>
+
+        <section class="mt-4">
+            <header class="text-center">
+                <h3>Achievements and Certifications</h3>
+            </header>
+            <ul>
+                <li>CCNP certified</li>
+                <li>Responsive web design freecodecamp</li>
+                <li>Graphics designer self-taught</li>
+            </ul>
+        </section>
+
+        <section class="mt-4">
+            <header class="text-center">
+                <h3>Team work</h3>
+            </header>
+            <section class="teamwork">
+                <img class="Teamwork image img-fluid" src="images/teamwork.jpg" alt="A photo describing Teamwork">
+                <p class="teamwork-paragraph">I excel in teamwork, showcased through successful collaboration in
+                    projects during the INSA-organized summer boot camp and group assignments at Saint Mary's
+                    University. I'm eager to bring this collaborative spirit to future endeavors, as I believe in the
+                    power of diverse teams to achieve innovative solutions and foster continuous growth.
+                </p>
+            </section>
+        </section>
+
     </section>
 
-    <section>
-        <header>
-            <h3>Education</h3>
-        </header>
-        <ol>
-            <li>High School - Lideta Catholic Cathedral</li>
-            <li>Summer Boot Camp in Cyber Security - Organized by INSA</li>
-            <li>First Degree in Information Systems - Saint Mary's University</li>
-            <li>Currently pursuing a Bachelor's in Software Engineering - Addis Ababa Institute of Technology (AAiT)</li>
-        </ol>
-    </section>
-
-    <section>
-        <header>
-            <h3>Hire me</h3>
-        </header>
-        <p>
-            I am a passionate individual dedicated to the fields of network architecture and web design. My educational background and hands-on experience have equipped me with the skills to tackle complex challenges in the digital realm. I thrive on continuous learning and innovation, always seeking opportunities to push the boundaries of what's possible.
-        </p>
-    </section>
-
-    <section>
-        <header>
-            <h3>Achievements and Certifications</h3>
-        </header>
-        <ul>
-            <li>CCNP certified</li>
-            <li>Responsive webdesign freecodecamp</li>
-            <li>graphics designer self thought <li>
-        </ul>
-    </section>
-
-    <section>
-        <header>
-            <h3>Team work</h3>
-        </header>
-        <img src="teamwork.jpg" alt="A photo describing Teamwork">
-    </section>
-
-    <section>
-        <header>
-        </header>
-        <p>
-            I excel in teamwork, showcased through successful collaboration in projects during the INSA-organized summer boot camp and group assignments at Saint Mary's University. I'm eager to bring this collaborative spirit to future endeavors, as I believe in the power of diverse teams to achieve innovative solutions and foster continuous growth.
-        </p>
-    </section>
-
-</section>
-
-<footer>
-    <p>&copy; 2023 Oliyad's Portfolio. All rights reserved. | Contact: oliyadmulugeta.78@gmail.com</p>
-</footer>
+    <footer class="bg-dark text-white py-3 mt-4">
+        <p class="text-center">&copy; 2023 Oliyad's Portfolio. All rights reserved. | Contact:
+            oliyadmulugeta.78@gmail.com</p>
+    </footer>
 
 </body>
+
 </html>
